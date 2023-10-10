@@ -1,0 +1,165 @@
+.weather{
+    /* margin-left : 35px; */
+    margin-top : 35px;
+    display: flex;
+    /* justify-content : center; */
+    flex-direction: column;
+}
+
+.weather-header{
+    width : 630px;
+    height : 300px;
+    background-color : #B9D2C6;
+    border-radius : 20px 20px 0 0;
+    /* display: flex; */
+    justify-content : center;
+    max-width: 630px;
+    margin : 0 auto;
+}
+
+.weather-header-left{
+  margin-top : 40px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.weather-header-right{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.today-weather-header{
+  font-size: 40px;
+  color : white;
+}
+
+.year-weather-header{
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.weather-data{
+}
+
+.carousel-container {
+    width : 630px;
+    height : 300px;
+    /* background-color : #9ABEAD; */
+    border-top: 3px solid  #579878;
+    border-bottom: 3px solid  #579878;
+    display: flex;
+    justify-content : center;
+    max-width: 630px;
+    margin : 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 15px;
+  }
+  
+  .carousel-items {
+    display: flex;
+  }
+
+  /* Weather.css */
+.carousel-item1 {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+  border-bottom: 3px solid  #579878;
+}
+  
+  .carousel-item1 > p {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+    width : 150px;
+    height : 80px;
+    background-color : #FFFFFF;
+    border-radius : 20px;
+    border : 3px solid #579878;
+    font-size : 15px;
+    font-weight : bold;
+  }
+
+    /* Weather.css */
+.carousel-item2 {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 500px; */
+}
+  
+  .carousel-item2 > p {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+    width : 150px;
+    height : 80px;
+    background-color : #FFFFFF;
+    border-radius : 20px;
+    border : 3px solid #579878;
+    font-size : 15px;
+    font-weight : bold;
+  }
+  
+  
+  .carousel-items > button {
+    background : none;
+    margin-top : 35px;
+    height : 50px;
+    border : none;
+  }
+
+  .weekWeather{
+    background-color: #FFFFFF;
+    width : 630px;
+    height: 190px;
+    border: 0px solid #579878;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    margin : 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .goOutContral{
+    background-color: #B9D2C6;
+    width : 630px;
+    height : 800px;
+    margin: 0 auto;
+  }
+
+.WeekToWeather{
+  justify-content : center;
+  max-width: 630px;
+  margin : 0 auto;
+
+  margin-bottom: 20px;
+
+  width: 630px;
+  height: 220px;
+}
+
+.RainPersent{
+  justify-content : center;
+    max-width: 630px;
+    margin : 0 auto;
+
+    width: 630px;
+    height: 220px;
+}
+
+.sun{
+  margin-right: 30px;
+  margin-left: -100px;
+  height: 120px;
+  width : auto;
+}

@@ -1,0 +1,27 @@
+.main{
+    background-color : white;
+    margin-left: 172.67px;
+}
+
+.UserBox{
+    width: 600px;
+    height: 1433px;
+    background-color: #579878;
+    border-radius: 10px;
+    /* margin-left: 100px; */
+    margin-right : 20px;
+    float: left;
+}
+
+.ChatBox{
+}
+
+.WeatherBox  {
+    width : 700px;
+    height : 1000px;
+    background-color : white;
+    margin-bottom: 20px;
+    border-radius : 10px;
+    float : left;
+    border: 5px solid  #579878;
+  }

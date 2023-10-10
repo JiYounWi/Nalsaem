@@ -1,0 +1,100 @@
+.main_login {
+    background-color : #DDE4E1;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top : 100px;
+    margin-bottom : 100px;
+  }
+  
+  .login_container {
+    text-align: center;
+  }
+  
+  .login_logo {
+    width : 200px;
+    height : 200px;
+    /* font-size: 24px;
+    margin-bottom: 20px; */
+  }
+  
+  .login_account {
+    margin-bottom: 20px;
+  }
+
+  .login_account > input{
+    width : 366px;
+    height : 66px;
+    margin-bottom: 20px;
+    font-size : 24px;
+    font-weight : bold;
+    padding-left : 30px;
+    border: none;
+    outline : none;
+  }
+
+  .login_account > input::placeholder{
+    color : #BFBFBF;
+  }
+
+  .login_button_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* 버튼의 가로 크기 */
+    height: 66px; /* 버튼의 세로 크기 */
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #579878;
+    transition: background-color 0.5s ease;
+    
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .login_button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #579878;
+    border : none;
+  }
+  
+  .login_button_content:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content : center;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .buttons button {
+    background-color: #579878;
+    margin : 20px;
+    border: none;
+    border-radius : 20px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight : bold;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    width : 174px;
+    height : 66px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .buttons button:hover{
+    background-color : #0056b3; 
+  }

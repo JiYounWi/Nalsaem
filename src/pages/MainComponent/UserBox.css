@@ -1,0 +1,135 @@
+.userWelcom{
+    float : left;
+    color : white;
+    margin-left : 100px;
+    margin-top : 80px;
+    font-size : 55px;
+    font-weight : bold;
+    line-height : 80px;
+    text-align : left;
+}
+
+.btn{
+  width: 480px;
+  background-color: #B9D2C6;
+  color : white;
+  height: 90px;
+  font-size: 40px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 25px;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #3B7DC5;
+}
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+  
+
+.health {
+  width : 480px;
+  height : 235px;
+  background-color: #B9D2C6;
+  border-radius: 30px;
+
+  justify-content: center;
+  display: flex;
+  margin: 30px auto;
+  flex-direction: column;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.health-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.health-box1{
+  height: 110px;
+  width: 150px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.gooutcontrol{
+  color : white;
+  font-size : 55px;
+  font-weight : bold;
+  line-height : 80px;
+  text-align : center;
+}
+
+.gooutcontrol-box{
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  border-radius: 20px;
+
+  justify-content: center;
+  display: flex;
+  margin: 0 auto 70px auto;
+}
+
+.gooutcontrol-box1{
+  height: 120px;
+  width: 120px;
+  background-color: #FFF3B1;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 90px;
+}
+
+.gooutcontrol-box2{
+  height: 120px;
+  width: 120px;
+  background-color: #359CC8;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 90px;
+}
+
+.gooutcontrol-box3{
+  height: 120px;
+  width: 120px;
+  background-color: #FA7C7C;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 90px;
+}
+
+.alarm{
+  width : 500px;
+  height: 200px;
+  background-color: white;
+  border-radius: 30px;
+
+  justify-content: center;
+  display: flex;
+  margin : 40px auto;
+}
+
+.alarm-study {
+  margin-top : 30px;
+  margin-right: 400px;
+}

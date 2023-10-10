@@ -1,0 +1,39 @@
+.healthInfo {
+    margin: auto;
+    background-color: white;
+    width: 720px;
+    height: 850px;
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkbox:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .selected {
+    background-color: #579878;
+    color: white;
+  }
+
+  .category-name{
+    /* margin-left: -500px; */
+    /* text-decoration-line: underline; */
+    font-size: 24px;
+    font-weight: bold;
+    color: #579878;
+  }
+
+  .checkbox-category{
+  }
